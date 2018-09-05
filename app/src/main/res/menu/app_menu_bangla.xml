@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mShare"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="always"
+        android:title="বন্ধুকে বলুন"/>
+    <item
+        android:id="@+id/mMoreApps"
+        android:icon="@drawable/ic_action_view_as_grid"
+        android:showAsAction="always"
+        android:title="ফ্রী অ্যাপ্লিকেশান"/>
+    <item
+        android:id="@+id/mAbout"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="ifRoom"
+        android:title="এবাউট"/>
+    <item
+        android:id="@+id/mFeedback"
+        android:icon="@drawable/ic_action_cc_bcc"
+        android:showAsAction="ifRoom"
+        android:title="ফিডব্যাক"/>
+    <item
+        android:id="@+id/mRateUs"
+        android:icon="@drawable/ic_action_good"
+        android:showAsAction="ifRoom"
+        android:title="রেট করুন"/>
+    <item
+        android:id="@+id/mSetting"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="ifRoom"
+        android:title="সেটিংস্‌"/>
+
+</menu>

@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_back"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".DualSim" >
+
+    <!-- eb get -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvEbGet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/bn_get_eb"
+            android:textColor="@color/switch_up_text_color"
+            android:textSize="22dp" />
+
+        <Switch
+            android:id="@+id/sEbGP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:checked="false"
+            android:text="@string/bn_gp"
+            android:textColor="@color/switch_text_color"
+            android:textOff="@string/bn_off"
+            android:textOn="@string/bn_on"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbRobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:checked="false"
+            android:text="@string/bn_robi"
+            android:textColor="@color/switch_text_color"
+            android:textOff="@string/bn_off"
+            android:textOn="@string/bn_on"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbBanglalink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:checked="false"
+            android:text="@string/bn_banglalink"
+            android:textColor="@color/switch_text_color"
+            android:textOff="@string/bn_off"
+            android:textOn="@string/bn_on"
+            android:textSize="20dp" />
+
+        <!-- eb check -->
+
+        <TextView
+            android:id="@+id/tvEbCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/bn_check_eb"
+            android:textColor="@color/switch_up_text_color"
+            android:textSize="22dp" />
+
+        <Switch
+            android:id="@+id/sEbCheckGP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:checked="false"
+            android:text="@string/bn_gp"
+            android:textColor="@color/switch_text_color"
+            android:textOff="@string/bn_off"
+            android:textOn="@string/bn_on"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbCheckRobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:checked="false"
+            android:text="@string/bn_robi"
+            android:textColor="@color/switch_text_color"
+            android:textOff="@string/bn_off"
+            android:textOn="@string/bn_on"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbCheckBanglalink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:checked="false"
+            android:text="@string/bn_banglalink"
+            android:textColor="@color/switch_text_color"
+            android:textOff="@string/bn_off"
+            android:textOn="@string/bn_on"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bHotKey"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_round_button"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tvAlertMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/alert_back_color"
+                android:gravity="center"
+                android:text="@string/bn_select_op"
+                android:textColor="@color/alert_text_color"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

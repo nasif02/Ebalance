@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DualSim" >
+
+    <!-- eb get -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvEbGet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/bn_get_eb"
+            android:textColor="@color/switch_up_text_color"
+            android:textSize="25dp" />
+
+        <Switch
+            android:id="@+id/sEbGP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Grameen Phone"
+            android:textColor="@color/switch_text_color"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbRobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Robi"
+            android:textColor="@color/switch_text_color"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbBanglalink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Banglalink"
+            android:textColor="@color/switch_text_color"
+            android:textSize="20dp" />
+
+        <!-- eb check -->
+
+        <TextView
+            android:id="@+id/tvEbCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/bn_check_eb"
+            android:textColor="@color/switch_up_text_color"
+            android:textSize="25dp" />
+
+        <Switch
+            android:id="@+id/sEbCheckGP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Grameen Phone"
+            android:textColor="@color/switch_text_color"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbCheckRobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Robi"
+            android:textColor="@color/switch_text_color"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/sEbCheckBanglalink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Banglalink"
+            android:textColor="@color/switch_text_color"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvAlertMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string" />
+    </LinearLayout>
+
+</RelativeLayout>

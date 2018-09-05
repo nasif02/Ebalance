@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialouge_body_back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialouge_title_back"
+        android:text="Dialouge Title"
+        android:textColor="@color/dialouge_title_text"
+        android:visibility="gone"
+        android:textSize="25sp" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tvBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialouge_body_back"
+        android:text="Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body Body "
+        android:textColor="@color/dialouge_body_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/dialouge_button_back"
+        android:text="Rate"
+        android:textColor="@color/dialouge_button_text" />
+
+    <Button
+        android:id="@+id/bRemind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialouge_button_back"
+        android:layout_margin="1dp"
+        android:text="Remind"
+        android:textColor="@color/dialouge_button_text" />
+
+    <Button
+        android:id="@+id/bThanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialouge_button_back"
+        android:layout_margin="1dp"
+        android:text="No Thanks"
+        android:textColor="@color/dialouge_button_text" />
+
+</LinearLayout>
