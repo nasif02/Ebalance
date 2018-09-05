@@ -28,6 +28,8 @@ public class MainActivity extends Activity {
 
 	// SharedPreferences sp;
 
+	//dd
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
